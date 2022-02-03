@@ -1,0 +1,37 @@
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  gap: 10px;
+}
+
+input {
+  padding: 6px 7px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button {
+  padding: 6px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container p {
+  font-size: 2.8rem;
+  background-color: rgb(255, 123, 0);
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+}
